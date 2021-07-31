@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from time import gmtime, strftime
 from datetime import date, datetime
 # Create your views here.
@@ -7,7 +7,7 @@ def index(request):
     context = {
         "time": strftime("%d-%m-%Y %H:%M:%S %p" , gmtime())
     }
-    return render(request,"index.html",context)
+    return redirect("/time")
 
 #CON DATETIME
 def time(request):
