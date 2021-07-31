@@ -1,0 +1,42 @@
+h1 {
+    color : #fbcb40;
+    font-family: Helvetica,Arial,Sans-Serif;
+
+}
+#hora {
+    font-size: 120px;
+
+}
+#hora span{
+    font-size: 80px;
+    vertical-align: top;
+    color: whitesmoke;
+}
+h2 {
+    display: inline-block;
+    color: white;
+    background-color: #fbcb40;
+    font-size: 28px;
+    
+}
+
+h2 p{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+#time h3 {
+    color: whitesmoke;
+    
+}
+
+
+
+body{
+
+    background-color: #222222 !important;
+}
+
